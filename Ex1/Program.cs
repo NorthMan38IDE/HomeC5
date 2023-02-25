@@ -1,7 +1,7 @@
 ﻿// Задача 1: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
-int[] GenArray(int length){ // Генератор
+int[] GenArray(int length){                // Генератор
     int[] mass = new int[length];
     Random rnd = new Random();
     for (int i = 0; i < mass.Length; i++)
@@ -28,7 +28,7 @@ int CountElements(int[] array){            // Счет четных элемен
     }
     return count;}
 //---------------------------------------------
-int InputSize(string msg){                  // Ввод размера массива
+int InputSize(string msg){                 // Ввод размера массива
      System.Console.Write($"{msg}");
      return Convert.ToInt32(System.Console.ReadLine());}
 //---------------------------------------------
