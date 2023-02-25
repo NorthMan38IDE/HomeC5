@@ -8,7 +8,7 @@ int[] GenArray(int length){                // Генератор
     Random rnd = new Random();
     for (int i = 0; i < mass.Length; i++)
     {
-        mass[i] = rnd.Next(1, 100);
+        mass[i] = rnd.Next(-10, 10);
     }
     return mass;}
 //----------------------------------------------
